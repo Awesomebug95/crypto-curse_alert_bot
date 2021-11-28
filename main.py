@@ -38,8 +38,9 @@ CASE = [
 
 async def main():
     """
-    Parses the api according to the specified settings,
-    notifies of course changes by a message in a telegram.
+    Gets a list with currency exchange rate changes for the period
+    from PAST_TIME to NOW, compares the first element with the last,
+    sends a message according to the specified conditions.
     """
     message = f'Bot run with change rate {CHANGE_RATE}%' \
               f' and time step {COMPARISON_TIME_DIFF}.'
