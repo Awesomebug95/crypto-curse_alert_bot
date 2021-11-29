@@ -5,6 +5,6 @@ cryptocurrency exchange rate parser with flexible notification settings
 ### Чтобы развернуть проект на вашем компьютере:
 -Клонируйте репозиторий
 -Создайте виртуальное окружение:
-python3 -m venv venv
+ python3 -m venv venv
 -Установите зависимости в виртуальное окружение:
-pip install -r requirements.txt
+ pip install -r requirements.txt
