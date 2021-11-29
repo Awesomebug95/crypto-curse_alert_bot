@@ -7,4 +7,4 @@ cryptocurrency exchange rate parser with flexible notification settings
 -Создайте виртуальное окружение:
  >python3 -m venv venv
 -Установите зависимости в виртуальное окружение:
->pip install -r requirements.txt
+ >pip install -r requirements.txt
